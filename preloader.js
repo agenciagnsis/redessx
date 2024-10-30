@@ -11,7 +11,7 @@ overlay.style.cssText = `
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #ff0000, #3a0a2b); /* Gradiente ajustado */
+    background-color: #310634; /* Fundo ajustado para #310634 */
     z-index: 999;
 `;
 
@@ -27,8 +27,9 @@ lottieContainer.style.cssText = `
 const loadingText = document.createElement('p');
 loadingText.innerText = 'Carregando...';
 loadingText.style.cssText = `
-    font-size: 1.5rem;
+    font-size: 12px;
     color: #ffffff;
+    font-family: 'Arial Rounded', Arial, sans-serif; /* Fonte Arial Rounded */
     margin-top: 20px;
 `;
 
